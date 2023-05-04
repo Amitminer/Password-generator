@@ -5,7 +5,7 @@ import kotlin.random.Random
 fun main() {
     # you can change len of password from "generatePassword(int)"
     # int =9,58 568 - whatever you want xD
-    val password = generatePassword()
+    val password = generatePassword(12)
     println("Generated Password: $password")
 }
 # generating password! 

@@ -6,7 +6,7 @@ fun main() {
     val password = generatePassword()
     println("Generated Password: $password")
 }
-
+# generating password! 
 fun generatePassword(length: Int): String {
     val chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+"
     val password = StringBuilder(length)

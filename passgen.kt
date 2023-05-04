@@ -3,6 +3,8 @@ import kotlin.random.Random
 
 # def function 
 fun main() {
+    # you can change len of password from "generatePassword(int)"
+    # int =9,58 568 - whatever you want xD
     val password = generatePassword()
     println("Generated Password: $password")
 }
@@ -13,5 +15,6 @@ fun generatePassword(length: Int): String {
     repeat(length) {
         password.append(chars[Random.nextInt(chars.length)])
     }
+    # returning value!
     return password.toString()
 }
